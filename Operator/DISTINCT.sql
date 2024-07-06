@@ -14,6 +14,10 @@ insert into disttable values (1, "Shaaz" , "Mumbai" , "India"),
 (3, "Shams" , "Ratnagiri" , "India"),
 (4, "Yaser" , "Mumbai" , "India");
 
-SELECT DISTINCT city FROM disttable;
+insert into disttable values (2 , "Hello" , "Mumbai" , "india");
+
+-- //select distinct coloumn_name from table_name
+
+SELECT DISTINCT city  FROM disttable;
 
 select * from disttable;
