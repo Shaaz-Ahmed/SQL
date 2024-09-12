@@ -1,1 +1,19 @@
+show dbs  -- to check the collection
+
+use employee  -- to use the collection
+
+-- insert command 
+db.emp_details.insertOne({name: "Shaaz", id: 101, age: 20, location: "Pune", Salary: 100000})
+
+-- get/ insert command
+db.emp_details.find()
+
+-- insert comamnd
+db.emp_details.insertOne({name: "Alice", id: 102, age:23, location: "Delhi", Salary:20000 })
+
+-- update command
+db.emp_details.updateOne({id:104}, {$set: {name: "charlie updated"}})
+
+-- Delete comman
+db.emp_details.deleteOne({id:103})
 
